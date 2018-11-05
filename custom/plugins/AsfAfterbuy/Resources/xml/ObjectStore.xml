@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ObjectStore version="0.0" xmlns="x-schema:objectStore-schema.xml">
+    <objectRef name="Surface">0</objectRef>
+    <Object id="0" className="EasyJewel.CSurface">
+        <string name="AxisAlignment">0 0.939692620785909 -0.342020143325669</string>
+        <double name="Circumference">62.8318530717959</double>
+        <string name="Convex">N</string>
+        <double name="Diameter">20</double>
+        <double name="FocusDepth">0.5</double>
+        <string name="Origin">0.3 8.18381967948297 8.6469262078591</string>
+        <integer name="SurfaceType">2</integer>
+        <double name="Width">7</double>
+        <double name="FixtureHeight">0</double>
+        <double name="WorkpieceHeight">1</double>
+        <double name="RootOffsetX">0</double>
+        <double name="RootOffsetY">0</double>
+        <double name="Zoffset">0</double>
+    </Object>
+    <objectRef name="RingHolder">1</objectRef>
+    <Object id="1" className="EasyJewel.CRingHolder">
+        <string name="Name">Cylindric 8 mm</string>
+        <string name="Type">Cylindric</string>
+        <double name="Offset">0</double>
+    </Object>
+    <objectRef name="Objects">2</objectRef>
+    <Object id="4" className="EasyJewel.CFont">
+        <string name="Name">Arial.ttf</string>
+        <double name="CharacterSpacing">0</double>
+        <double name="LineDistance">1</double>
+        <double name="Italic">0</double>
+        <double name="Height">0.8</double>
+        <double name="Ratio">1</double>
+    </Object>
+    <Object id="3" className="EasyJewel.CTextObject">
+        <integer name="ObjectType">0</integer>
+        <string name="Name">TEXT2</string>
+        <boolean name="IsHatched">0</boolean>
+        <integer name="GridIndex">1</integer>
+        <double name="X">0</double>
+        <double name="Y">2.3</double>
+        <double name="DimensionX">7.37142857142857</double>
+        <double name="DimensionY">0.8</double>
+        <double name="Angle">0</double>
+        <string name="LPSetName">Reinigen</string>
+        <string name="HPSetName">Standard</string>
+        <string name="Text">585Au / 0,14ct.</string>
+        <objectRef name="Font">4</objectRef>
+        <boolean name="FixedFrame">0</boolean>
+        <double name="DimensionX">7.37142857142857</double>
+        <double name="DimensionY">0.8</double>
+        <double name="Angle">0</double>
+        <double name="X">0</double>
+        <double name="Y">2.3</double>
+        <string name="RefPoint">CC</string>
+        <boolean name="IsHatched">0</boolean>
+        <string name="HPSetName">Standard</string>
+        <string name="LPSetName">Reinigen</string>
+    </Object>
+    <Object className="EasyJewel.CLogoObject" id="5">
+        <integer name="ObjectType">1</integer>
+        <string name="Name">LOGO3</string>
+        <boolean name="IsHatched">0</boolean>
+        <integer name="GridIndex">2</integer>
+        <double name="X">0</double>
+        <double name="Y">4</double>
+        <double name="DimensionX">4.916</double>
+        <double name="DimensionY">1.638</double>
+        <double name="Angle">0</double>
+        <string name="LPSetName">Reinigen</string>
+        <string name="HPSetName">Standard</string>
+        <string name="Filename">C:\Users\Coherent\Desktop\ASF-Logo.LOG</string>
+        <double name="Slant">0</double>
+        <double name="ScaleX">1</double>
+        <double name="ScaleY">1</double>
+        <boolean name="Scale">0</boolean>
+        <double name="DimensionX">4.916</double>
+        <double name="DimensionY">1.638</double>
+        <double name="Angle">0</double>
+        <double name="X">0</double>
+        <double name="Y">4</double>
+        <string name="RefPoint">CC</string>
+        <boolean name="IsHatched">0</boolean>
+        <string name="HPSetName">Standard</string>
+        <string name="LPSetName">Reinigen</string>
+    </Object>
+    <Object className="EasyJewel.CFont" id="7">
+        <string name="Name">Lucida Calligraphy Italic.ttf</string>
+        <double name="CharacterSpacing">0</double>
+        <double name="LineDistance">1</double>
+        <double name="Italic">0</double>
+        <double name="Height">2</double>
+        <double name="Ratio">1</double>
+    </Object>
+    <Object className="EasyJewel.CTextObject" id="6">
+        <integer name="ObjectType">0</integer>
+        <string name="Name">TEXT1</string>
+        <boolean name="IsHatched">0</boolean>
+        <integer name="GridIndex">3</integer>
+        <double name="X">31.4159265358979</double>
+        <double name="Y">3.5</double>
+        <double name="DimensionX">16.8292682926829</double>
+        <double name="DimensionY">2</double>
+        <double name="Angle">0</double>
+        <string name="LPSetName">Reinigen</string>
+        <string name="HPSetName">Standard</string>
+        <string name="Text">Grit &amp; Steven</string>
+        <objectRef name="Font">7</objectRef>
+        <boolean name="FixedFrame">0</boolean>
+        <double name="DimensionX">16.8292682926829</double>
+        <double name="DimensionY">2</double>
+        <double name="Angle">0</double>
+        <double name="X">31.4159265358979</double>
+        <double name="Y">3.5</double>
+        <string name="RefPoint">CC</string>
+        <boolean name="IsHatched">0</boolean>
+        <string name="HPSetName">Standard</string>
+        <string name="LPSetName">Reinigen</string>
+    </Object>
+    <Object id="2" className="EasyJewel.CMarkingObjects">
+        <array name="MarkingObjectList">
+            <objectRef name="0">3</objectRef>
+            <objectRef name="1">5</objectRef>
+            <objectRef name="2">6</objectRef>
+        </array>
+    </Object>
+    <objectRef name="Parameter">8</objectRef>
+    <Object id="8" className="EasyJewel.CParameter">
+        <string name="LPSetName">Weißgold fein</string>
+        <string name="HPSetName">Standard</string>
+        <integer name="AngleStep">0</integer>
+        <integer name="MarkingCycleCount">1</integer>
+        <integer name="SmoothingCycleCount">1</integer>
+        <string name="SmoothingLPSetName">Reinigen</string>
+        <boolean name="PrecisionModeActive">0</boolean>
+        <integer name="HatchRepeatPrecisionMode">1</integer>
+        <boolean name="OTFModeActive">1</boolean>
+    </Object>
+</ObjectStore>

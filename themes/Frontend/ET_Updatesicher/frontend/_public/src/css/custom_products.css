@@ -1,0 +1,786 @@
+﻿/* EWIGETRAURINGE.DE - CUSTOM PRODCUTS */
+
+.memoireringe-detail .custom-products--required-field-info { 
+	display: none;
+}
+
+.memprofil.is--active, .memkranz.is--active  {
+    border: 1px solid green;
+}
+
+.memkranz, .memprofil {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 2px 0px;	
+}
+
+.custom-product--overview-option-name {
+	width: 20%;
+	float: left;
+}
+
+.image-slider--dots {
+	display: none !important;
+}
+
+.custom-products--label {
+	cursor: default;
+}
+
+.symbole_text {
+	margin-right: 2px;
+}
+
+.conf_rl input[type="text"],
+.conf_rr input[type="text"] {
+	padding-right: 0px;
+	color: black !important;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	.symbole_text {
+		float: left;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.infinity, .single_heart, .double_heart, .double_ring {
+		width: 25px !important;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.product--details .product--image-container {
+		margin-right: 2%;
+	}
+	.product--details .product--buybox {
+		width: 40%;
+	}
+}
+.verlobungsringe-detail fieldset {
+	width: 49%;
+	float: left;
+}
+@media screen and (min-width: 1024px) and (max-width: 1271px) {
+	.verlobungsringe-detail fieldset {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 496px) {
+	.verlobungsringe-detail fieldset {
+		width: 100%;
+	}
+}
+
+.custom-product--interactive-bar {
+	display: none;
+}
+.custom-products--option.is--first{
+    display: inline-block;
+    padding-bottom: 0px;
+}
+.trauringe-detail .custom-products--option.is--second{
+    width: 72%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+.custom-products--radio-value{
+	float: left;
+	width: 33%;
+}
+
+@media screen and (max-width: 444px) {
+	.custom-products--radio-value {
+		font-size: 10px;
+	}
+}
+
+.profil-kranz, .groesse-notiz {
+	float: left;
+	width: 49%;
+}
+
+.profil-kranz {
+	height: 173px;
+}
+
+.button_container {
+	float: left;
+}
+
+.memoireringe .button_container,
+.memoireringe .profil_container,
+.memoireringe-detail button  {
+	z-index: 2;
+	background-color: #fff;
+    cursor: pointer;
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eee;
+    height: 60px;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 0 5px;
+    width: 49%;
+	margin-bottom: 5px;
+}
+
+.memoireringe-detail button img {
+	z-index: 1;
+	width: 50px;
+	float: left;
+}
+
+.memoireringe-detail button span {
+	z-index: 1;
+	float: right;
+    margin-top: 20px;
+    margin-left: -20px;
+    line-height: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.full_width {
+	width: 100% !important;
+}
+.full_width span {
+	margin-right: 35%;	
+}
+
+.memoireringe  .profil_container a {
+	width: 0px;
+	height: 0px;
+}
+
+.memoireringe  .profil_container span {
+    top: 15px;
+    position: relative;
+    margin-right: 3px;
+}
+@media screen and (min-width: 1024px) and (max-width: 1400px) {
+	.profil-kranz, .groesse-notiz {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 548px) {
+	.profil-kranz, .groesse-notiz {
+		width: 100%;
+	}
+}
+
+.verlobungsringe .custom-products--radio-value, .memoireringe .custom-products--radio-value{
+	float: none;
+	width: 100%;
+	padding: 0 5px 5px 0px;
+}
+.trauringe-detail .custom-products--label{
+    color: #ab3333;
+    height: 28px;
+    text-align: left;	
+}
+.custom-products--radio .custom-products--radio-inline-label{
+	font-size: 12px;
+}
+
+.custom-products--container.is--wide{
+	border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 10px !important;	
+}
+
+.trauringe-detail .custom-product--option-wrapper.custom-products--textfield, .custom-products--option .custom-product--option-wrapper{
+	width: 98%;
+}
+
+.trauringe label[for=custom-products-option-2], .trauringe label[for=custom-products-option-3], .trauringe label[for=custom-products-option-4],
+.trauringe label[for=custom-products-option-5], .trauringe label[for=custom-products-option-6], .trauringe label[for=custom-products-option-7]{
+    font-size: 10px;
+    font-weight: bold;
+    color: #3f4c58;
+	width: 100%;
+}
+label[for=custom-products-option-8], label[for=custom-products-option-9], label[for=custom-products-option-10]{
+	display: none;
+}
+
+.ring_group{
+	border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.conf_left{
+	width: 50%;
+	float: left;
+    margin-top: -18px;
+}
+
+.conf_rl{
+	width: 25%;
+	float: left;
+	margin-top:-27px;
+}
+.conf_rr{
+	width: 25%;
+	float: right;
+	margin-top:-27px;
+}
+
+.calc_gravur_left {
+	width: 48%;
+	float: left;
+}
+
+.calc_gravur_right {
+	width: 48%;
+	float: right;
+}
+
+.partnerringe .calc_gravur_left,
+.partnerringe .calc_gravur_right {
+    height: 245px;
+}
+
+.partnerringe #ringmasskonf {
+    clear: both;
+    width: 99.2%;
+}
+
+.conf_ring_choose{
+	width: 78%;
+    float: right;
+}
+.conf_profil {
+	float: left;
+	border: 1px solid #eee;
+}
+
+.custom-products--radio-value button{
+    background: #fff;
+    border: 1px solid #eee;
+    width: 95%;
+    padding: 5px;
+}
+
+.profil_container {
+    border: 1px solid #eee;
+	height: 90px;
+	width: 90px;
+	margin-bottom: 5px;	
+}
+
+.custom-products--radio-value button:hover, .profil_container:hover{
+    border: 1px solid #f00;
+}
+
+.custom-products--radio-value button.active{
+    border: 1px solid #f00;
+}
+
+.conf_plus{
+	width: 24%;
+    float: right;
+    margin-top: 7px;
+	line-height: 2rem;
+	align-items: center;
+	cursor: pointer;
+}
+
+.conf_minus{
+	width: 24%;
+	float: left;
+	line-height: 2rem !important;
+	align-items: center;
+    cursor: pointer;
+}
+	
+.conf_mm{
+    width: 48% !important;
+    background: white !important;
+    border: 0px !important;
+    box-shadow: none !important;
+	font-size: 11px !important;
+	padding-left: 0px !important;
+	font-weight: bold;
+}
+.select-field select, .js--fancy-select select{
+	line-height: 2rem;
+}
+.custom-products--option .js--fancy-select select,
+.custom-products--option .select-field, .custom-products--option .js--fancy-select {
+	height: 2rem;
+}
+
+.custom-products--option .custom-product--option-wrapper .fa-2x {
+	font-size: 1.3em;
+}
+
+.article_profil {
+    font-size: 11px;
+	text-align: left;
+    line-height: 1rem;
+	margin-top: 50px;
+}
+
+.profil_container a {
+    width: 88px;
+    height: 88px;
+    display: inline-block;
+}
+
+.profil_container .set_profile--container {
+    display: none;
+}
+
+.js--modal .call_profil_modalbox {
+    display: none;
+}
+
+.js--modal .set_profile--container {
+    display: block;
+}
+
+.set_profile--container {
+	padding: 30px 30px 0px 30px;
+}
+
+.wleft.set_profile_big--box {
+	float: left;
+	width: 40%;
+	height: 300px;
+	position: relative;
+}
+
+button.asf_hidden_radio_switcher.is--active {
+    border: 1px solid green;
+}
+
+.set_profile--container .set_profile_set--box a {
+	border: 1px solid #eee;
+}
+
+.set_profile--container .set_profile_set--box a.is--active, .set_profile--container .set_profile_set--box a:hover {
+	border: 1px solid green;
+}
+
+.set_profile--container .profil_container {
+	width: 19%;
+	display: inline-block;
+}
+
+.change_ring_color {
+    width: 50%;
+    float: left;
+}
+.verlobungsringe #asf_custom-products-option-3 {
+	width: 15%;
+	float: left;
+}
+.verlobungsringe #asf_custom-products-option-4 {
+	width: 22%;
+	float: left;
+}
+.memoireringe #asf_custom-products-option-4 {
+    width: 15%;
+    float: left;
+}
+.memoireringe #asf_custom-products-option-5 {
+    width: 22%;
+    float: left;
+}
+
+@media screen and (min-width: 340px) and (max-width: 520px) {
+	.verlobungsringe #asf_custom-products-option-3 {
+		width: 32%;
+	}
+	.verlobungsringe #asf_custom-products-option-4 {
+		width: 32%;
+	}
+	.verlobungsringe #asf_custom-products-option-6 {
+		width: 32% !important;
+	}
+
+	.memoireringe #asf_custom-products-option-4 {
+		width: 32%;
+	}
+	.memoireringe #asf_custom-products-option-5 {
+		width: 32%;
+	}
+	.memoireringe #asf_custom-products-option-7 {
+		width: 32% !important;
+	}
+}
+@media screen and (max-width: 340px) {
+	.verlobungsringe #asf_custom-products-option-6 {
+		width: 50% !important;
+	}
+	.verlobungsringe #asf_custom-products-option-3 {
+		width: 50%;
+	}
+	.verlobungsringe #asf_custom-products-option-4 {
+		width: 50%;
+	}
+
+    .memoireringe #asf_custom-products-option-4 {
+        width: 50%;
+    }
+    .memoireringe #asf_custom-products-option-5 {
+        width: 50%;
+    }
+    .memoireringe #asf_custom-products-option-7 {
+        width: 50% !important;
+    }
+}
+
+.font_changer {
+	width: 100% !important;
+}
+
+div.font_changer .select-field, .js--fancy-select {
+	max-width: 100%;
+}
+
+#asf_custom-products-option-11{
+	width: 13%;
+	float: left;
+}
+#asf_custom-products-option-12{
+    width: 14%;
+    float: left;
+}
+
+#asf_custom-products-option-12 label {
+    width: 50%;
+    display: inline-block;
+}
+
+#asf_custom-products-option-13{
+    width: 23%;
+    float: left;
+}
+.verlobungsringe #asf_custom-products-option-6 {
+    width: 12%;
+    float: left;	
+}
+.memoireringe .change_ring_color {
+	width: 40%;
+}
+
+.memoireringe #asf_custom-products-option-7 {
+    width: 20%;
+    float: left;
+}
+
+#asf_custom-products-option-13 .custom-products--radio-value {
+	width: 100%;
+}
+
+.change_ring_color h4, #asf_custom-products-option-11 h4, #asf_custom-products-option-12 h4,
+#asf_custom-products-option-3 h4, #asf_custom-products-option-4 h4, #asf_custom-products-option-5 h4,
+#asf_custom-products-option-13 h4, #asf_custom-products-option-6 h4, #asf_custom-products-option-7 h4,
+.gia-zertifikat h4 {
+	color: #ab3333;
+    height: 28px;
+    text-align: left;
+	font-size: 12px;
+}
+
+@media screen and (max-width: 520px) {
+	.change_ring_color {
+		width: 100%;
+	}
+	#asf_custom-products-option-11, #asf_custom-products-option-12 {
+		width: 50%;
+	}
+	.etui {
+		height: auto;
+	}
+	.trauringe-detail .custom-products--option.is--second {
+		width: 68%;
+	}
+	#asf_custom-products-option-13 {
+		width: 100%;
+	}
+}
+
+#asf_custom-products-option-11 .custom-products--radio-value,#asf_custom-products-option-12 .custom-products--radio-value {
+	width: 100%;
+	padding: 0 5px 5px 0px;
+}
+#asf_custom-products-option-11 .filter-panel--radio.filter-panel--radio,#asf_custom-products-option-12 .filter-panel--radio.filter-panel--radio,
+.change_ring_container .filter-panel--radio {
+	float: left;
+	margin-right: 10px;
+}
+
+.color_left {
+	float: left;
+	width: 50%;
+	padding: 0 5px 5px 0px;
+}
+.color_right {
+	float: left;
+	width: 50%;
+	padding: 0 5px 5px 0px;
+}
+.color_left img, .color_right img {
+	display: unset !important;
+	margin-right: 5px;
+}
+/*.sidebar--navigation ul.sidebar--navigation .navigation--entry {
+	display: inline-flex;
+}*/
+/*
+.sidebar--categories-navigation img {
+	position: absolute;
+}
+.sidebar--navigation .is--level1 .navigation--link {
+	margin-left: 15px;
+}
+*/
+
+.color_left, .color_right {
+	cursor: pointer;
+}
+
+.color_left.is--active, .color_right.is--active {
+	font-weight: bold;
+}
+
+.change_ring_container .filter-panel--checkbox, .change_ring_container .filter-panel--radio,
+.change_ring_container .filter-panel--radio .radio--state {
+	border-radius: 50% !important;
+}
+.color_text {
+	margin-top: 2px;
+    position: absolute;
+    margin-left: 4px;
+}
+.set_profile--container .img_left {
+    float: left;
+    width: 35%;
+    height: 300px;
+    position: relative;	
+}
+.set_profile--container .choose_profile {
+	float: left;
+    width: 63%;
+	margin-left: 2%;
+    height: 300px;
+}
+.set_profile_big--box-right {
+	height: 77px;
+}
+.choose_profile .set_profile--container .set_profile_set--box a{
+	border: 0px !important;
+}
+.js--modal .set_profile--container .img_left img{
+	border: 1px solid #eee;
+}
+.conf_stones {
+    width: 52%;
+    display: inline-block;
+    position: absolute;
+    right: -50px;
+	height: 35px;
+	top: 121px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1332px) {
+	.conf_stones {
+		width: 66%;
+		right: 0px;
+	}
+}
+.btn_with_stones, .btn_without_stones {
+	background-color: white;
+    cursor: pointer;
+    font-size: 11px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #eee;
+    height: 30px;
+    border-radius: 4px;
+    line-height: 30px;
+    padding: 0 8px;
+	width: 110px;
+}
+
+@media screen and (max-width: 400px) {
+	.btn_with_stones, .btn_without_stones {
+		width: 90px;
+		line-height: 25px;
+		height: 25px;
+		font-size: 10px;
+	}
+	.conf_stones img {
+		width: 15px !important;
+		margin-top: 2px !important;
+		float: left;
+	}
+	.conf_stones {
+		top: 124px;
+		right: -25px;
+	}
+}
+
+.btn_with_stones.is--active, .btn_without_stones.is--active {
+    border: 1px solid green;
+}
+
+.btn_without_stones{
+	margin-left: 5px;
+}
+.btn_with_stones_text, .btn_without_stones_text{
+    float: right;
+    position: absolute;
+    margin-top: -24px;
+}
+.btn_with_stones_text{
+    left: 37px;
+}
+.btn_without_stones_text{
+	left: 145px;
+}
+.conf_stone_left{
+	float: left;
+}
+.conf_stones img {
+	width: 20px;
+	margin-top: 5px;
+	float: left;
+}
+
+/* Engraving symbols */
+.add_symbols {
+    font-size: 11px;
+}
+
+.infinity, .single_heart, .double_heart, .double_ring {
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 2px;
+    position: relative;
+    top: 0px;
+    border: 1px solid #efefef;
+    height: 22px;
+    width: 28px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 4px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.infinity:hover, .single_heart:hover, .double_heart:hover, .double_ring:hover {
+    border: 1px solid #ddd;
+}
+
+.ring-extra-info {
+    width: 100%;
+    display: inline-block;
+}
+
+.etui img{
+    margin: 0 auto;
+    height: 145px
+}
+
+.etui li {
+    margin-left:20px;
+}
+
+.buybox--quantity.block {
+    display: none;
+}
+
+/* Ajax Cart */
+.custom-product--overview-list {
+    margin-bottom:0px;
+    padding-bottom:0px;
+    margin-bottom:0rem;
+    padding-bottom:0rem;
+    border-bottom: none;
+}
+.custom-products--basket-overview {
+    padding-left: 0px !important;
+}
+.custom-products--basket-overview fieldset {
+    margin-bottom:8px;
+}
+
+/************ KONFIG MOBIL STYLEN BIS 340 PIXEL ***************/
+
+@media screen and (max-width: 340px){
+	.conf_left{
+		width: 100%;
+	}
+	.conf_rl, .conf_rr{
+		margin-top: 0px;
+		width: 50%;
+	}
+	.conf_stones{
+		width: 71%;
+		top: 117px;
+	}
+	.product--details .buybox--button {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.partnerringe .calc_gravur_left,
+	.partnerringe .calc_gravur_right {
+		width: 100%;
+		float: none;
+	}
+}
+
+/************ KONFIG MOBIL STYLEN BIS 449 PIXEL ***************/
+@media screen and (max-width: 449px){
+	.conf_stones{
+		width: 71%;
+		top: 117px;
+	}
+	.custom-products--option.is--second{
+		width: 68%;
+	}
+	.custom-products--option.is--first{
+		width: 30%;
+	}
+}
+
+/********* SCHRIFTARTEN WECHSLER *******/
+div.font_changer {
+    width:76%;
+    float:right;
+}
+
+.font_changer_label {
+    display:inline-block;
+    margin-top:4px;
+}
+
+/********* DETAILSEITE VERLOBUNGSRINGE *******/
+
+@media screen and (min-width: 341px) and (max-width: 400px) {
+	.trauringe-detail .custom-products--numberfield {
+		width: 70px !important;
+	}
+}
+
+.trauringe-detail .custom-products--numberfield {
+	width: 90px;
+}
+
+.trauringe-detail .conf_rl input[type="text"], .conf_rr input[type="text"] {
+	line-height: 0rem;
+}

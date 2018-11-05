@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Afterbuy>
+   <CallStatus>Success</CallStatus>
+   <CallName>GetAfterbuyTime</CallName>
+   <VersionID>8</VersionID>
+   <Result>
+      <AfterbuyTimeStamp>26.10.2018 13:18:14</AfterbuyTimeStamp>
+      <AfterbuyUniversalTimeStamp>26.10.2018 11:18:14</AfterbuyUniversalTimeStamp>
+   </Result>
+</Afterbuy>

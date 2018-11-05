@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/menu.xsd"
+>
+    <entries>
+        <entry isRootMenu="true">
+            <name>Preis Manager</name>
+            <label lang="en">Preis Manager</label>
+            <label lang="de">Preis Manager</label>
+            <class>sprite-currency-euro</class>
+            <children>
+                <entry>
+                    <name>Trauringe</name>
+                    <label lang="en">Trauringe</label>
+                    <label lang="de">Trauringe</label>
+                    <controller>AsfRingManager</controller>
+                    <action>trauringe</action>
+                    <class>asf_afterbuy sprite-ring</class>
+                    <onclick>Shopware.ModuleManager.createSimplifiedModule("AsfRingManager/trauringe", { "title": "Trauringe Preise" })</onclick>
+                </entry>
+                <entry>
+                    <name>Verlobungsringe</name>
+                    <label lang="en">Verlobungsringe</label>
+                    <label lang="de">Verlobungsringe</label>
+                    <controller>AsfRingManager</controller>
+                    <action>verlobungsringe</action>
+                    <class>asf_afterbuy sprite-ring</class>
+                    <onclick>Shopware.ModuleManager.createSimplifiedModule("AsfRingManager/verlobungsringe", { "title": "Verlobungsringe Preise" })</onclick>
+                </entry>
+                <entry>
+                    <name>Memoirenringe</name>
+                    <label lang="en">Memoirenringe</label>
+                    <label lang="de">Memoirenringe</label>
+                    <controller>AsfRingManager</controller>
+                    <action>memoirenringe</action>
+                    <class>asf_afterbuy sprite-ring</class>
+                    <onclick>Shopware.ModuleManager.createSimplifiedModule("AsfRingManager/memoirenringe", { "title": "Memoirenringe Preise" })</onclick>
+                </entry>
+                <entry>
+                    <name>Dokumentationen</name>
+                    <label lang="en">Dokumentationen</label>
+                    <label lang="de">Dokumentationen</label>
+                    <controller>AsfRingManager</controller>
+                    <action>documentations</action>
+                    <class>sprite-ui-scroll-pane-list article--overview</class>
+                    <onclick>Shopware.ModuleManager.createSimplifiedModule("AsfRingManager/documentations", { "title": "Dokumentationen" })</onclick>
+                </entry>
+            </children>
+        </entry>
+    </entries>
+</menu>

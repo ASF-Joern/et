@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="button">
+            <name>ab_info</name>
+            <label>Afterbuy Schnittstellen Daten</label>
+            <options>
+                <handler>
+                    <![CDATA[]]>
+                </handler>
+            </options>
+        </element>
+        <element type="text" required="true">
+            <name>ab_loginID</name>
+            <label>Afterbuy Login-ID</label>
+            <value>ewigetrauringe-de</value>
+        </element>
+        <element type="text" required="true">
+            <name>ab_password</name>
+            <label>Afterbuy Password</label>
+            <value>jacob2015asf</value>
+        </element>
+        <element type="text" required="true">
+            <name>partnerID</name>
+            <label>Partner-ID</label>
+            <value>105031</value>
+        </element>
+        <element type="text" required="true">
+            <name>partner_password</name>
+            <label>Partner Password</label>
+            <value>lOuSJyi4gdk/CT(zA5m=5HdCN</value>
+        </element>
+        <element type="button">
+            <name>sw_info</name>
+            <label>Shopware Kategorie Zuweisung</label>
+            <options>
+                <handler>
+                    <![CDATA[]]>
+                </handler>
+            </options>
+        </element>
+        <element type="combo" required="true">
+            <name>root_cat</name>
+            <label>Root-Kategorie</label>
+            <store>Shopware.apps.Base.store.Category</store>
+        </element>
+        <element type="combo" required="true">
+            <name>tr_catID</name>
+            <label>Trauring-Kategorie</label>
+            <store>Shopware.apps.Base.store.Category</store>
+        </element>
+        <element type="combo" required="true">
+            <name>pr_catID</name>
+            <label>Partnerring-Kategorie</label>
+            <store>Shopware.apps.Base.store.Category</store>
+        </element>
+        <element type="combo" required="true">
+            <name>vr_catID</name>
+            <label>Verlobungsring-Kategorie</label>
+            <store>Shopware.apps.Base.store.Category</store>
+        </element>
+        <element type="combo" required="true">
+            <name>ma_catID</name>
+            <label>Memoirering-Kategorie</label>
+            <store>Shopware.apps.Base.store.Category</store>
+        </element>
+        <element type="button">
+            <name>js_info</name>
+            <label>Datenbank-Daten von JS</label>
+            <options>
+                <handler>
+                    <![CDATA[]]>
+                </handler>
+            </options>
+        </element>
+        <element type="text" required="true">
+            <name>js_host</name>
+            <label>Adresse</label>
+            <value>dedi2432.your-server.de</value>
+        </element>
+        <element type="text" required="true">
+            <name>js_user</name>
+            <label>Benutzername</label>
+            <value>wwwtjn_5</value>
+        </element>
+        <element type="text" required="true">
+            <name>js_password</name>
+            <label>Datenbank-Passwort</label>
+            <value>hm8n9uXtF1VW1U9q</value>
+        </element>
+        <element type="number" required="true">
+            <name>js_port</name>
+            <label>Port</label>
+            <value>3306</value>
+        </element>
+        <element type="text" required="true">
+            <name>js_dbname</name>
+            <label>Datenbank-Name</label>
+            <value>wwwtjn_sw5</value>
+        </element>
+        <element type="button">
+            <name>tt_info</name>
+            <label>Datenbank-Daten von TT</label>
+            <options>
+                <handler>
+                    <![CDATA[]]>
+                </handler>
+            </options>
+        </element>
+        <element type="text" required="true">
+            <name>tt_host</name>
+            <label>Adresse</label>
+            <value>dedi2432.your-server.de</value>
+        </element>
+        <element type="text" required="true">
+            <name>tt_user</name>
+            <label>Benutzername</label>
+            <value>rnqfff_sw</value>
+        </element>
+        <element type="text" required="true">
+            <name>tt_password</name>
+            <label>Datenbank-Passwort</label>
+            <value>VNLUbGZvA9sM8Bmk</value>
+        </element>
+        <element type="number" required="true">
+            <name>tt_port</name>
+            <label>Port</label>
+            <value>3306</value>
+        </element>
+        <element type="text" required="true">
+            <name>tt_dbname</name>
+            <label>Datenbank-Name</label>
+            <value>rnqfff_sw2016</value>
+        </element>
+    </elements>
+</config>

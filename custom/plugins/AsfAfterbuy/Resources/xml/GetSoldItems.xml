@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <AfterbuyGlobal>
+        <PartnerID></PartnerID>
+        <PartnerPassword></PartnerPassword>
+        <UserID></UserID>
+        <UserPassword></UserPassword>
+        <CallName>GetSoldItems</CallName>
+        <DetailLevel>0</DetailLevel>
+        <ErrorLanguage>DE</ErrorLanguage>
+    </AfterbuyGlobal>
+    <RequestAllItems>0</RequestAllItems>
+    <MaxSoldItems>1</MaxSoldItems>
+    <DataFilter>
+        <Filter>
+            <FilterName>OrderID</FilterName>
+            <FilterValues>
+                <FilterValue></FilterValue>
+            </FilterValues>
+        </Filter>
+        <Filter>
+            <FilterName>UserDefinedFlag</FilterName>
+            <FilterValues>
+                <FilterValue></FilterValue>
+            </FilterValues>
+        </Filter>
+    </DataFilter>
+</Request>

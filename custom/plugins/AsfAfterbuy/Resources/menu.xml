@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.2/engine/Shopware/Components/Plugin/schema/menu.xsd"
+>
+    <entries>
+        <entry isRootMenu="true">
+            <name>Afterbuy</name>
+            <label lang="en">Afterbuy</label>
+            <label lang="de">Afterbuy</label>
+            <class>asf_afterbuy sprite-afterbuy</class>
+            <children>
+                <entry>
+                    <name>Afterbuy Schnittstelle</name>
+                    <label lang="en">Afterbuy Schnittstelle</label>
+                    <label lang="de">Afterbuy Schnittstelle</label>
+                    <controller>AsfAfterbuy</controller>
+                    <class>asf_afterbuy sprite-afterbuy</class>
+                </entry>
+                <entry>
+                    <name>Dokumentationen</name>
+                    <label lang="en">Dokumentationen</label>
+                    <label lang="de">Dokumentationen</label>
+                    <controller>AfterbuyDocumentations</controller>
+                    <class>sprite-ui-scroll-pane-list article--overview</class>
+                </entry>
+            </children>
+        </entry>
+        <entry>
+            <name>ShopwareImport</name>
+            <label lang="en">Artikel nach Shopware</label>
+            <label lang="de">Artikel nach Shopware</label>
+            <controller>AsfAfterbuy</controller>
+            <action>import</action>
+            <class>asf_afterbuy sprite-afterbuy-to-shopware</class>
+            <parent identifiedBy="controller">AsfAfterbuy</parent>
+            <onclick>Shopware.ModuleManager.createSimplifiedModule("AsfAfterbuy/import", { "title": "Artikel Import" })</onclick>
+        </entry>
+        <entry>
+            <name>ShopwareExport</name>
+            <label lang="en">Artikel nach Afterbuy</label>
+            <label lang="de">Artikel nach Afterbuy</label>
+            <controller>AsfAfterbuy</controller>
+            <action>export</action>
+            <class>asf_afterbuy sprite-shopware-to-afterbuy</class>
+            <parent identifiedBy="controller">AsfAfterbuy</parent>
+            <onclick>Shopware.ModuleManager.createSimplifiedModule("AsfAfterbuy/export", { "title": "Artikel Export" })</onclick>
+        </entry>
+        <entry>
+            <name>Cronjobs</name>
+            <label lang="en">Cronjobs</label>
+            <label lang="de">Cronjobs</label>
+            <controller>AsfAfterbuy</controller>
+            <action>cronjobs</action>
+            <class>sprite-alarm-clock--pencil</class>
+            <parent identifiedBy="controller">AsfAfterbuy</parent>
+            <onclick>Shopware.ModuleManager.createSimplifiedModule("AsfAfterbuy/cronjobs", { "title": "Cronjob Übersicht" })</onclick>
+        </entry>
+        <entry>
+            <name>Interface</name>
+            <label lang="en">Schnittstelle</label>
+            <label lang="de">Schnittstelle</label>
+            <controller>AfterbuyDocumentations</controller>
+            <action>interfaces</action>
+            <class>sprite-documents contents--shopsites</class>
+            <parent identifiedBy="controller">AfterbuyDocumentations</parent>
+            <onclick>Shopware.ModuleManager.createSimplifiedModule("AfterbuyDocumentations/interfaces", { "title": "Dokumentation Schnittstelle" })</onclick>
+        </entry>
+        <entry>
+            <name>Ring</name>
+            <label lang="en">Ringe</label>
+            <label lang="de">Ringe</label>
+            <controller>AfterbuyDocumentations</controller>
+            <action>rings</action>
+            <class>sprite-documents contents--shopsites</class>
+            <parent identifiedBy="controller">AfterbuyDocumentations</parent>
+            <onclick>Shopware.ModuleManager.createSimplifiedModule("AfterbuyDocumentations/rings", { "title": "Dokumentation Ringarten" })</onclick>
+        </entry>
+    </entries>
+</menu>

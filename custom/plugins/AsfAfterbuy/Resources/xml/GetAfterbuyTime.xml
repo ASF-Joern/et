@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <AfterbuyGlobal>
+        <PartnerID></PartnerID>
+        <PartnerPassword></PartnerPassword>
+        <UserID></UserID>
+        <UserPassword></UserPassword>
+        <CallName>GetAfterbuyTime</CallName>
+        <DetailLevel>0</DetailLevel>
+        <ErrorLanguage>DE</ErrorLanguage>
+    </AfterbuyGlobal>
+</Request>

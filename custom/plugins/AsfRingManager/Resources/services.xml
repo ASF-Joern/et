@@ -1,0 +1,41 @@
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="asf_ring_manager.subscriber.detail" class="AsfRingManager\Subscriber\Detail">
+            <argument>%asf_ring_manager.plugin_name%</argument>
+            <argument>%asf_ring_manager.plugin_dir%</argument>
+            <tag name="shopware.event_subscriber" />
+        </service>
+        <service id="asf_ring_manager.subscriber.checkout" class="AsfRingManager\Subscriber\Checkout">
+            <argument>%asf_ring_manager.plugin_name%</argument>
+            <argument>%asf_ring_manager.plugin_dir%</argument>
+            <tag name="shopware.event_subscriber" />
+        </service>
+        <service id="asf_ring_manager.subscriber.forms" class="AsfRingManager\Subscriber\Forms">
+            <argument>%asf_ring_manager.plugin_name%</argument>
+            <argument>%asf_ring_manager.plugin_dir%</argument>
+            <tag name="shopware.event_subscriber" />
+        </service>
+        <service id="asf_ring_manager.list_product_service"
+                 class="AsfRingManager\Bundle\StoreFrontBundle\ListProductService"
+                 decorates="shopware_storefront.list_product_service"
+                 public="false">
+            <argument type="service" id="asf_ring_manager.list_product_service.inner"/>
+        </service>
+        <service id="asf_ring_manager.search_bundle_dbal.asf_ring_manager_handler"
+                 class="AsfRingManager\Bundle\SearchBundleDBAL\AsfRingManagerHandler">
+            <argument type="service" id="service_container"/>
+            <tag name="condition_handler_dbal"/>
+            <tag name="facet_handler_dbal"/>
+            <tag name="sorting_handler_dbal"/>
+        </service>
+        <service id="asf_ring_manager.search_bundle_dbal.criteria_request_handler"
+                 class="AsfRingManager\Bundle\SearchBundle\CriteriaRequestHandler">
+            <argument type="service" id="service_container"/>
+            <tag name="criteria_request_handler"/>
+        </service>
+    </services>
+</container>
+
